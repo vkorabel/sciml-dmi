@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://sciml-dmi.github.io/markdown/2023/06/12/june_meetup.html</loc>
+<loc>/sciml-dmi/markdown/2023/06/12/june_meetup.html</loc>
 <lastmod>2023-06-12T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>https://sciml-dmi.github.io/about/</loc>
+<loc>/sciml-dmi/about/</loc>
 </url>
 <url>
-<loc>https://sciml-dmi.github.io/gpu/</loc>
+<loc>/sciml-dmi/gpu/</loc>
 </url>
 <url>
-<loc>https://sciml-dmi.github.io/</loc>
+<loc>/sciml-dmi/</loc>
 </url>
 <url>
-<loc>https://sciml-dmi.github.io/projects/</loc>
+<loc>/sciml-dmi/projects/</loc>
 </url>
 <url>
-<loc>https://sciml-dmi.github.io/search/</loc>
+<loc>/sciml-dmi/search/</loc>
 </url>
 <url>
-<loc>https://sciml-dmi.github.io/categories/</loc>
+<loc>/sciml-dmi/categories/</loc>
 </url>
 </urlset>

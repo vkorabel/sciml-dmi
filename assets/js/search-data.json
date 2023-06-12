@@ -4,7 +4,7 @@
         "post0": {
             "title": "June meetup 12/6/2023",
             "content": "This was the first meetup of SciML @ DMI. Below are notes on what we discussed. Feel free to make a pull-request to edit any inaccuracies - Leif Denby. . What’s new in ML? . Nvidia modulus: https://github.com/NVIDIA/modulus non-standard loss function? | . | sketch package: https://github.com/approximatelabs/sketch | noteable GPT+ plugin: https://noteable.io/chatgpt-plugin-for-notebook/ | . What do we want SciML DMI to be? . mindmap SciML DMI getting practal advise on using &quot;pascal&quot; would like to learn about ML, have money brainstorm practical examples, feedback keep up to date with recent developments pioneer new things at DMI have fun! go through interesting papers, show the front page tie in new people with ML experience, support network learn techniques being applied in group best practice for using ML in operations? existing projects, what ML is being used? DEODE DestineE emulation PhD student, innovation fund, Phillip Arestrup DTU data quality analysis for Danish APA sattellite data, sea ice mapping in radar images flood mapping, by external partners Anna, densification of shallow ice cores, DTU Space physical foundation of machine learning? use of ML at data assimilation? . GPUs? . platform name, hardware available, cost, how to get access . | pascal.dmi.dk, 1x A100 80GB (paid for by IT during ASIP project, Tore Wulf) only available to ASIP group (Ask Tore Wulf twu@dmi.dk, Martin Koster mak@dmi.dk), cost ~ 100,000DKK Tore Wulf: research group is pushing for more copies of pascal.dmi.dk | . | ATOS @ ECMWF: should be easy to get access (KAH) | European Weather Cloud | LUMI | EuroHPC: nvidia | upcoming project needs: Ruth: emulate regional climate model over two ice sheets - do we need more GPUs? | Fabrizio (EUMETNET project) | . | no GPU UWC-W | . Research projects . ASIP (Copernicus): sea ice mapping in radar images, convolutional neural networks, | ML (EumetSat fellowship): extending assimilation of sat microwave obs over seaice, fab@dmi.dk | PRECISE: emulate regional climate (surface mass balance model) over ice-sheets, collab with Northumberland (sea-ice caverns) - rum@dmi.dk | RopeWalk: digitising hand-written records of observations in ship-data tables - mas@dmi.dk | ACCORD: use of machine learning in LAM NWP (data assimulation, ensemble forecasting and everything you can think of) - Henrik | PhD: TODO | . | . Background . SciML Leeds community: https://sciml-leeds.github.io | .",
-            "url": "https://sciml-dmi.github.io/markdown/2023/06/12/june_meetup.html",
+            "url": "/sciml-dmi/markdown/2023/06/12/june_meetup.html",
             "relUrl": "/markdown/2023/06/12/june_meetup.html",
             "date": " • Jun 12, 2023"
         }
@@ -19,7 +19,7 @@
       ,"page1": {
           "title": "About",
           "content": "sciml-dmi is a community of researchers and practitioners at DMI which are excited about applying machine learning in their work. Our primarily interests focus around weather and climate in Denmark and abroad. Please get in touch if you’d like to collaborate or present your work to our work community. .",
-          "url": "https://sciml-dmi.github.io/about/",
+          "url": "/sciml-dmi/about/",
           "relUrl": "/about/",
           "date": ""
       }
@@ -30,7 +30,7 @@
       ,"page2": {
           "title": "GPU platforms",
           "content": "Below is an overview of GPU platforms available for research by staff at DMI: . GPU platforms . Name Hardware Access Project . Pascal (DMI) | 1x A100 80GB | Email Tore Wulf (twu@dmi.dk) | ASIP | . ATOS (ECMWF) | | | | . European Weather Cloud | | | | . LUMI | | | | . EuroHPC | | | | .",
-          "url": "https://sciml-dmi.github.io/gpu/",
+          "url": "/sciml-dmi/gpu/",
           "relUrl": "/gpu/",
           "date": ""
       }
@@ -43,7 +43,7 @@
       ,"page4": {
           "title": "Projects",
           "content": "Below is an overview of research projects involving the use of machine learning at DMI: . Research projects . Name Aim Website Contact . ASIP (Copernicus) | sea ice mapping in radar imagery | https://ocean.dmi.dk/asip/ | Tore Wulf | . EUMETSAT fellowship | extending assimilation of sattellite microwave observations over seaice | | Fabrizio Baordo | . PRECISE | emulation regional climate (surface mass-balance) over ice-sheets | | Ruth Mottram | . RopeWalk | digitise hand-written ship data-table observations | | Martin Stendel | . ACCORD | use of machine learning in Limited Area Model Numerical Weather Prediction | | Henrik Feddersen | .",
-          "url": "https://sciml-dmi.github.io/projects/",
+          "url": "/sciml-dmi/projects/",
           "relUrl": "/projects/",
           "date": ""
       }
@@ -76,7 +76,7 @@
       ,"page13": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
-          "url": "https://sciml-dmi.github.io/robots.txt",
+          "url": "/sciml-dmi/robots.txt",
           "relUrl": "/robots.txt",
           "date": ""
       }
