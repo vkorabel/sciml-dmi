@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>June meetup 12/6/2023 | sciml-dmi</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="June meetup 12/6/2023" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="First monthly meetup for SciML community at DMI" />
+<meta property="og:description" content="First monthly meetup for SciML community at DMI" />
+<link rel="canonical" href="https://sciml-dmi.github.io/markdown/2023/06/12/june_meetup.html" />
+<meta property="og:url" content="https://sciml-dmi.github.io/markdown/2023/06/12/june_meetup.html" />
+<meta property="og:site_name" content="sciml-dmi" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-06-12T00:00:00-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="June meetup 12/6/2023" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-06-12T00:00:00-05:00","datePublished":"2023-06-12T00:00:00-05:00","description":"First monthly meetup for SciML community at DMI","headline":"June meetup 12/6/2023","mainEntityOfPage":{"@type":"WebPage","@id":"https://sciml-dmi.github.io/markdown/2023/06/12/june_meetup.html"},"url":"https://sciml-dmi.github.io/markdown/2023/06/12/june_meetup.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://sciml-dmi.github.io/feed.xml" title="sciml-dmi" /><link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.2.3/mermaid.min.js" integrity="sha512-M4zmdILgXOwrBEVfpVqdO/jC3BJZQzlXHeu967v41/QoT60sESWSLbi7YwntTbYC0ZjewfTbvXO8iKj7amvQow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript">
+  mermaid.initialize({ theme: "default" });
+</script>
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    mermaid.init(undefined, document.querySelectorAll('code.language-mermaid'))
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">sciml-dmi</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/gpu/">GPU platforms</a><a class="page-link" href="/projects/">Projects</a><a class="page-link" href="/search/">Search</a><a class="page-link" href="/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">June meetup 12/6/2023</h1><p class="page-description">First monthly meetup for SciML community at DMI</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2023-06-12T00:00:00-05:00" itemprop="datePublished">
+        Jun 12, 2023
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      1 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/categories/#markdown">markdown</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul id="toc" class="section-nav">
+<li class="toc-entry toc-h2"><a href="#whats-new-in-ml">What’s new in ML?</a></li>
+<li class="toc-entry toc-h2"><a href="#what-do-we-want-sciml-dmi-to-be">What do we want SciML DMI to be?</a></li>
+<li class="toc-entry toc-h2"><a href="#gpus">GPUs?</a></li>
+<li class="toc-entry toc-h2"><a href="#research-projects">Research projects</a></li>
+<li class="toc-entry toc-h2"><a href="#background">Background</a></li>
+</ul><p>This was the first meetup of SciML @ DMI. Below are notes on what we discussed.
+Feel free to make a pull-request to edit any inaccuracies - Leif Denby.</p>
+
+<h2 id="whats-new-in-ml">
+<a class="anchor" href="#whats-new-in-ml" aria-hidden="true"><span class="octicon octicon-link"></span></a>What’s new in ML?</h2>
+
+<ul>
+  <li>Nvidia modulus: <a href="https://github.com/NVIDIA/modulus">https://github.com/NVIDIA/modulus</a>
+    <ul>
+      <li>non-standard loss function?</li>
+    </ul>
+  </li>
+  <li>
+<code class="language-plaintext highlighter-rouge">sketch</code> package: <a href="https://github.com/approximatelabs/sketch">https://github.com/approximatelabs/sketch</a>
+</li>
+  <li>noteable GPT+ plugin: <a href="https://noteable.io/chatgpt-plugin-for-notebook/">https://noteable.io/chatgpt-plugin-for-notebook/</a>
+</li>
+</ul>
+
+<h2 id="what-do-we-want-sciml-dmi-to-be">
+<a class="anchor" href="#what-do-we-want-sciml-dmi-to-be" aria-hidden="true"><span class="octicon octicon-link"></span></a>What do we want <strong>SciML DMI</strong> to be?</h2>
+
+<pre><code class="language-mermaid">mindmap
+  SciML DMI
+    getting practal advise on using "pascal"
+    would like to learn about ML, have money
+    brainstorm practical examples, feedback
+    keep up to date with recent developments 
+    pioneer new things at DMI
+    have fun!
+    go through interesting papers, show the front page
+    tie in new people with ML experience, support network
+    learn techniques being applied in group
+    best practice for using ML in operations?
+    existing projects, what ML is being used?
+      DEODE
+      DestineE
+      emulation PhD student, innovation fund, Phillip Arestrup DTU
+      data quality analysis for Danish APA
+      sattellite data, sea ice mapping in radar images
+      flood mapping, by external partners
+      Anna, densification of shallow ice cores, DTU Space
+    physical foundation of machine learning?
+    use of ML at data assimilation?
+
+</code></pre>
+
+<h2 id="gpus">
+<a class="anchor" href="#gpus" aria-hidden="true"><span class="octicon octicon-link"></span></a>GPUs?</h2>
+
+<ul>
+  <li>
+    <p>platform name, hardware available, cost, how to get access</p>
+  </li>
+  <li>pascal.dmi.dk, 1x A100 80GB (paid for by IT during ASIP project, Tore Wulf) only available to ASIP group (Ask Tore Wulf twu@dmi.dk, Martin Koster mak@dmi.dk), cost ~ 100,000DKK
+    <ul>
+      <li>Tore Wulf: research group is pushing for more copies of pascal.dmi.dk</li>
+    </ul>
+  </li>
+  <li>ATOS @ ECMWF: should be easy to get access (KAH)</li>
+  <li>European Weather Cloud</li>
+  <li>LUMI</li>
+  <li>EuroHPC: nvidia</li>
+  <li>upcoming project needs:
+    <ul>
+      <li>Ruth: emulate regional climate model over two ice sheets - do we need more GPUs?</li>
+      <li>Fabrizio (EUMETNET project)</li>
+    </ul>
+  </li>
+  <li>no GPU UWC-W</li>
+</ul>
+
+<h2 id="research-projects">
+<a class="anchor" href="#research-projects" aria-hidden="true"><span class="octicon octicon-link"></span></a>Research projects</h2>
+
+<ul>
+  <li>ASIP (Copernicus): sea ice mapping in radar images, convolutional neural networks,</li>
+  <li>ML (EumetSat fellowship): extending assimilation of sat microwave obs over seaice, fab@dmi.dk</li>
+  <li>PRECISE: emulate regional climate (surface mass balance model) over ice-sheets, collab with Northumberland (sea-ice caverns) - rum@dmi.dk</li>
+  <li>RopeWalk: digitising hand-written records of observations in ship-data tables - mas@dmi.dk</li>
+  <li>ACCORD: use of machine learning in LAM NWP (data assimulation, ensemble forecasting and everything you can think of) - Henrik</li>
+  <li>PhD:
+    <ul>
+      <li>TODO</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="background">
+<a class="anchor" href="#background" aria-hidden="true"><span class="octicon octicon-link"></span></a>Background</h2>
+
+<ul>
+  <li>SciML Leeds community: <a href="https://sciml-leeds.github.io">https://sciml-leeds.github.io</a>
+</li>
+</ul>
+
+  </div><a class="u-url" href="/markdown/2023/06/12/june_meetup.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="https://sciml-dmi.github.io/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Scientific Machine Learning at the Danish Meteorological Institute</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li>
+  <a rel="me" href="https://github.com/sciml-dmi/" target="_blank" title="github">
+    <svg class="svg-icon grey">
+      <use xlink:href="/assets/minima-social-icons.svg#github"></use>
+    </svg>
+  </a>
+</li>
+</ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
