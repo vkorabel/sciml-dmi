@@ -38,6 +38,6 @@
     twitter: thejll
   techniques:
     - supervised learning of CNN
-    - CNN for image regression (not classification)
+    - CNN for image regression (and classification)
   applications:
     - "Radiometry: determine terrestrial albedo from Moon images"
