@@ -50,3 +50,11 @@
     - Beginner
   applications:
     - Post-processing of NWP data and downstream applications
+- name: Peter Ukkonen
+  email: puk@dmi.dk
+  social:
+    github: peterukk
+  techniques:
+    - RNNs, MLPs, CNNs
+  applications:
+    - ESM parameterizations, e.g. radiative transfer
