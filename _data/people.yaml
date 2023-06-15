@@ -58,3 +58,13 @@
     - RNNs, MLPs, CNNs
   applications:
     - ESM parameterizations, e.g. radiative transfer
+- name: Phillip Aarestrup
+  email: phaa@dmi.dk
+  social:
+    github: phillipaarestrup
+    twitter: PhilAarestrup
+    linkedin: phillip-aarestrup
+  techniques:
+    - LSTMs, CNNs
+  applications:
+    - Forecasting and simulation of river networks
