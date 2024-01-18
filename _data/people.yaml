@@ -148,3 +148,13 @@
   applications:
     - Model verification and post-processing
     - Interested in data-driven forecast models, downscaling, time-series forecasting
+- name: Kristian Pagh Nielsen  
+  email: kpn@dmi.dk
+  social:
+    linkedin: https://www.linkedin.com/in/kristian-pagh-nielsen-5330163/
+    github: kristianpagh
+  techniques:
+    - Beginner (in AI)
+  applications:
+    - weather and climate radiative transfer (forward) modelling
+    - remote sensing (inverse) modelling
