@@ -184,3 +184,14 @@
     - Data quality
   applications:
     - Precipitation estimation
+- name: André Düsterhus
+  email: andu@dmi.dk
+  social:
+    github: aduesterhus
+    twitter: aduesterhus
+    mastodon: fediscience.org/@aduesterhus
+  techniques:
+    - Interested in supervised/unsupervised machine learning
+  applications:
+    - Effect of North Atlantic system on European Climate
+    - Chances and limitation of ML methods
