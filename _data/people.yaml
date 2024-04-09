@@ -195,3 +195,11 @@
   applications:
     - Effect of North Atlantic system on European Climate
     - Chances and limitation of ML methods
+- name: Vasily Korabel
+  email: vak@dmi.dk
+  techniques:
+    - Machine learning methods for geophysical applications
+  applications:
+    - Data assimilation
+    - Data handling ( QC, extremes, patterns, etc. ) 
+    - Forecasting 
